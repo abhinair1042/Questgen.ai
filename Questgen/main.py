@@ -49,7 +49,7 @@ class QGen:
 
         self.fdist = FreqDist(brown.words())
         self.normalized_levenshtein = NormalizedLevenshtein()
-        self.set_seed(42)
+        # self.set_seed(42)
         
     def set_seed(self,seed):
         numpy.random.seed(seed)
